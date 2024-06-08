@@ -1,5 +1,6 @@
 class PaymentIntentRequest {                             // creating data objects 
-    constructor(amount, currency) {
+    constructor(amount, currency)
+     {
       this.amount = amount;
       this.currency = currency;
     }
